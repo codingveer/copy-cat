@@ -4,6 +4,8 @@
 
 html {
   @apply box-border;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont;
+  font-size: 14px;
 }
 
 *,
@@ -118,4 +120,9 @@ select {
 
 .drag-error {
   @apply border-2 border-dashed border-error-500 bg-error-100;
+}
+
+#title-bar {
+  -webkit-app-region: drag;
+  user-select: none;
 }
